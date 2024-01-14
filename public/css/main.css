@@ -1,0 +1,40 @@
+*,body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.boutonbleu{
+  background-color: rgb(32, 61, 153);
+  border-radius: 7%;
+  color:aliceblue;
+  font-weight: 700;
+  font-size:small;
+}
+.boutonRouge{
+  background-color: rgb(153, 32, 38);
+  border-radius: 7%;
+  color:aliceblue;
+  font-weight: 700;
+  font-size:small;
+}
+
+.colorBleuCiel{
+  background-color: rgba(74, 219, 230, 0.925);
+}
+
+.vertical-line{
+  border-left: 1px solid #8d8989;
+  display: inline-block;
+  height: 50%;
+  margin: 0 20px;
+}
+
+.horizotal-line{
+  border-bottom: 3px solid #be2222;
+  display: inline-block;
+  width: 150px;
+  align-items: center;
+  margin: 20px 0;
+}
