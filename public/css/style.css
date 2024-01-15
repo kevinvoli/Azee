@@ -142,10 +142,10 @@ header .valeur{
 
 }
 
-.valeur .icon{
-  background-color: #c57308;
+.valeur .icon i{ 
   margin: 10px;
-  padding: 25px;
+  font-size:xx-large;
+  color:  rgb(153, 32, 38);
 
 }
 
@@ -179,4 +179,19 @@ header .valeur{
 
 .titre-section span{
   color: rgb(209, 68, 68);
+}
+
+.main .affiche{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.affiche .card{
+  width: 300px;
+  margin: 10px;
+}
+
+.card img{
+  width: 100%;
 }
