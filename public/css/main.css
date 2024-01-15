@@ -5,6 +5,10 @@
   font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.f-color{
+  color: rgb(255, 72, 0);
+}
+
 .boutonbleu{
   background-color: rgb(32, 61, 153);
   border-radius: 7%;
@@ -37,4 +41,8 @@
   width: 150px;
   align-items: center;
   margin: 20px 0;
+}
+
+.b-shad{
+  box-shadow: 5px 5px 5px rgb(211, 210, 210);
 }

@@ -129,7 +129,8 @@ header .container_valeur{
   transform: translate(-50%,-50%);
   border-radius: 10px;
   display: flex;
-  align-items: center;justify-content: center;
+  align-items: center;
+  justify-content: center;
   box-shadow: 5px 5px 5px rgb(211, 210, 210);
   
   
@@ -189,9 +190,26 @@ header .valeur{
 
 .affiche .card{
   width: 300px;
-  margin: 10px;
+  margin: 5px;
+  border-left: 1px solid rgb(214, 211, 211);
 }
 
 .card img{
   width: 100%;
+}
+.card .card-container{
+  margin: 25px;
+}
+
+.card .address{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+}
+
+.card .card-action{
+  display:  flex;
+  justify-content:space-between;
+  margin-top: 10px;
+
 }
