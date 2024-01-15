@@ -191,7 +191,7 @@ header .valeur{
 .affiche .card{
   width: 300px;
   margin: 5px;
-  border-left: 1px solid rgb(214, 211, 211);
+  border-left: 0.5px solid rgb(214, 211, 211);
 }
 
 .card img{
@@ -200,6 +200,15 @@ header .valeur{
 .card .card-container{
   margin: 25px;
 }
+
+.card .card-icon{
+  margin-right: 5px;
+}.card .date{
+  display: flex;
+  flex-direction: row;
+}
+
+
 
 .card .address{
   display: flex;
@@ -212,4 +221,21 @@ header .valeur{
   justify-content:space-between;
   margin-top: 10px;
 
+}
+
+.card button{
+  border: none;
+  background-color: white;
+  font-size: medium;
+  font-weight: 600;
+}
+
+.card .card-titre{
+  font-weight: 700;
+  margin: 10px 0;
+}
+
+.card p{
+  font-weight: 300;
+  color: rgb(110, 108, 108);
 }
